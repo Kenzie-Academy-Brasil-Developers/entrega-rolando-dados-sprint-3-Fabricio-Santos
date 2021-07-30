@@ -1,0 +1,46 @@
+body {
+  width: 80%;
+  font-size: 15px;
+}
+.graficoResultado {
+  width: 340px;
+  height: 550px;
+  background-color: rgb(163, 163, 241);
+  border: 1px solid rgba(219, 219, 232, 0.8);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  flex-direction: column;
+}
+.graficoResultado div {
+  height: 40px;
+  width: 50px;
+  background-color: salmon;
+  text-align: justify;
+}
+.grafico {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .graficoResultado {
+    width: 500px;
+    height: 550px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    flex-direction: column;
+  }
+  .graficoResultado div {
+    height: 40px;
+    width: 50px;
+
+    text-align: justify;
+  }
+  .grafico {
+    text-align: center;
+  }
+}
